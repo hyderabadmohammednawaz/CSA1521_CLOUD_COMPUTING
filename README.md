@@ -182,10 +182,7 @@ Lab-Screenshots/
 
 ## 🖼️ Visual Course Map
 
-<p align="center">
-  <img src="./README-Assets/learning-journey.svg" alt="CSA15 five-unit learning journey" width="900"/>
-</p>
-
+![Cloud Computing Learning Journey](./assets/learning-journey.png)
 # 📚 Course Learning Journey
 
 The course is divided into **five major units**, taking the learner from the fundamentals of cloud computing to Hadoop and MapReduce.
