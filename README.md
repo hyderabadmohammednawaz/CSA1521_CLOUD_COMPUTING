@@ -1,11 +1,73 @@
 # ☁️ CSA15 - Cloud Computing and Big Data Analytics
 
 <p align="center">
+  <img src="./assets/cloud-computing-banner.png" alt="CSA15 Cloud Computing and Big Data Analytics" width="100%" />
+</p>
+
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/☁️%20CLOUD-THINK%20BIG-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🖥️%20VIRTUALIZATION-POWER-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/📊%20BIG%20DATA-FIND%20INSIGHTS-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🐘%20HADOOP-PROCESS-yellow?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Cloud%20Computing%20%26%20Big%20Data&fontSize=34&fontColor=ffffff&color=0:2563eb,100:7c3aed&section=header" alt="Cloud Computing and Big Data banner" />
+</p>
+
+> ### 🧩 Can You Solve the Cloud Puzzle?
+>
+> **I can store data, run applications, create virtual machines, and process huge datasets.**
+>
+> **I can provide infrastructure, platforms, or software.**
+>
+> **I can scale without you owning the physical hardware.**
+>
+> 🔎 **What am I?**
+>
+> <details>
+> <summary>💡 Reveal the answer</summary>
+>
+> **Answer: ☁️ Cloud Computing**
+>
+> </details>
+>
+> ### ⚡ Follow the Journey
+>
+> ```text
+> ☁️ CLOUD
+>    ↓
+> 🖥️ VIRTUALIZATION
+>    ↓
+> 🌐 CLOUD SERVICES
+>    ↓
+> 📊 BIG DATA
+>    ↓
+> 🐘 HADOOP
+>    ↓
+> ⚙️ MAPREDUCE
+>    ↓
+> 🧪 PRACTICAL LABS
+> ```
+>
+> <p align="center">
+>   <b>Think Cloud ☁️ • Build Skills 🧠 • Analyze Data 📊 • Practice 🧪</b>
+> </p>
+
+---
+
+
+<p align="center">
 
 <img src="https://img.shields.io/badge/Course-CSA15-blue?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Domain-Cloud%20Computing-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Big%20Data-Analytics-green?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Hadoop-MapReduce-yellow?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Virtualization-purple?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Laboratory-12%20Experiments-red?style=for-the-badge" />
 
 </p>
 
@@ -19,7 +81,7 @@
 
 Welcome to my **CSA15 - Cloud Computing and Big Data Analytics** repository.
 
-This repository is created to organize and document my academic work throughout the course. It contains **Assessment Tool activities, Laboratory work, screenshots, practical outputs, and evidence of hands-on learning** related to Cloud Computing, Virtualization, Big Data Analytics, Hadoop, and MapReduce.
+This repository is created to organize and document my academic work throughout the course. It contains **the official course syllabus, course materials, laboratory manual, unit-wise Assessment Tool activities, 12 laboratory experiments, screenshots, practical outputs, and evidence of hands-on learning** related to Cloud Computing, Virtualization, Big Data Analytics, Hadoop, and MapReduce.
 
 The repository follows the major topics and learning objectives defined in the official course syllabus.
 
@@ -42,35 +104,89 @@ The syllabus aims to develop both **conceptual understanding and practical knowl
 
 # 🚀 What This Repository Contains
 
-This repository mainly focuses on:
+This repository brings together the major academic resources, assessment activities, laboratory work, and practical evidence for the course.
+
+### 📄 Course Syllabus
+
+Contains the official syllabus for **CSA15 - Cloud Computing and Big Data Analytics**, including the five units, course topics, outcomes, textbooks, and references.
+
+📁 Location:
+
+```text
+Course-Syllabus/
+```
+
+### 📚 Course Materials
+
+Contains supporting learning resources used throughout the course, such as notes, PDFs, presentations, references, and additional study materials.
+
+📁 Location:
+
+```text
+Course-Materials/
+```
+
+### 📖 Lab Manual
+
+Contains the laboratory manual and practical instructions used for the Cloud Computing laboratory.
+
+📁 Location:
+
+```text
+Lab-Manual/
+```
 
 ### 📝 Assessment Tool
 
-Contains the work completed through the **Cloud Computing Assessment Tool**, including:
+Contains the assessment work completed throughout the course. Assessments are organized **unit-wise** according to the five units of the syllabus.
 
-* Assessment activities
-* Practical tasks
-* Completed exercises
-* Screenshots
-* Outputs
-* Evidence of completed activities
+📁 Location:
+
+```text
+Assessment-Tool/
+├── Unit-01/
+├── Unit-02/
+├── Unit-03/
+├── Unit-04/
+└── Unit-05/
+```
+
+Each unit can contain multiple assessment folders with completed activities, supporting files, screenshots, and outputs.
 
 ### 🧪 Lab Screenshots
 
-Contains screenshots from Cloud Computing laboratory activities.
+Contains practical screenshots from the **12 Cloud Computing laboratory experiments**.
 
-The screenshots document:
+The screenshots are stored directly inside the `Lab-Screenshots/` folder, making the practical evidence easy to access.
 
-* Practical implementations
-* Configuration steps
-* Cloud-related activities
-* Virtualization activities
-* Big Data activities
-* Hadoop-related activities
-* Execution results
-* Final outputs
+The folder also contains a dedicated `README.md` that displays the experiment names together with their corresponding images.
+
+📁 Location:
+
+```text
+Lab-Screenshots/
+├── Lab-Experiments_1.png
+├── Lab-Experiments_2.png
+├── Lab-Experiments_3.png
+├── Lab-Experiments_4.png
+├── Lab-Experiments_5.png
+├── Lab-Experiments_6.png
+├── Lab-Experiments_7.png
+├── Lab-Experiments_8.png
+├── Lab-Experiments_9.png
+├── Lab-Experiments_10.png
+├── Lab-Experiments_11.png
+├── Lab-Experiments_12.png
+└── README.md
+```
 
 ---
+
+## 🖼️ Visual Course Map
+
+<p align="center">
+  <img src="./README-Assets/learning-journey.svg" alt="CSA15 five-unit learning journey" width="900"/>
+</p>
 
 # 📚 Course Learning Journey
 
@@ -313,35 +429,66 @@ The syllabus specifically covers Hadoop architecture, the Hadoop ecosystem, HDFS
 
 # 🧪 Laboratory Work
 
-The **Lab-Screenshots** section documents the practical side of the course.
+The **Lab-Screenshots** section documents the practical side of the course through **12 laboratory experiments**.
 
-Each laboratory folder can contain screenshots showing the progression from:
+The practical workflow follows:
 
 ```text
-Setup
-  ↓
+Lab Manual
+    ↓
+Understand Experiment
+    ↓
 Configuration
-  ↓
+    ↓
 Execution
-  ↓
-Processing
-  ↓
+    ↓
 Output
+    ↓
+Screenshot
+    ↓
+GitHub Documentation
 ```
 
+### 📸 12 Laboratory Experiments
+
+| No. | Experiment | Code |
+|---:|---|---|
+| 01 | Cloud Service Provision | CSP |
+| 02 | Flight Reservation System | FRS |
+| 03 | Property Management System | PMS |
+| 04 | Car Booking Reservation | CBR |
+| 05 | Library Book Reservation | LBR |
+| 06 | Product Sales Management | PSM |
+| 07 | Virtual Machine Management | VMM |
+| 08 | Virtual Machine Provisioning | VMP |
+| 09 | Virtual Disk Management | VDM |
+| 10 | Virtual Machine Snapshot Management | VMS |
+| 11 | Virtual Machine Cloning | VMC |
+| 12 | Virtual Machine Hardware Configuration | VMH |
+
 ### 📸 Lab Screenshot Organization
+
+The screenshots are stored directly inside the `Lab-Screenshots/` folder.
 
 ```text
 Lab-Screenshots/
 │
-├── Lab-01/
-├── Lab-02/
-├── Lab-03/
-├── Lab-04/
-├── Lab-05/
-├── ...
-└── Outputs/
+├── Lab-Experiments_1.png
+├── Lab-Experiments_2.png
+├── Lab-Experiments_3.png
+├── Lab-Experiments_4.png
+├── Lab-Experiments_5.png
+├── Lab-Experiments_6.png
+├── Lab-Experiments_7.png
+├── Lab-Experiments_8.png
+├── Lab-Experiments_9.png
+├── Lab-Experiments_10.png
+├── Lab-Experiments_11.png
+├── Lab-Experiments_12.png
+└── README.md
 ```
+
+The `README.md` inside this folder provides a visual presentation of the experiments, showing the experiment names with their corresponding screenshots.
 
 Screenshots are maintained as practical evidence of the work performed during the laboratory sessions.
 
@@ -351,14 +498,35 @@ Screenshots are maintained as practical evidence of the work performed during th
 
 The **Assessment-Tool** directory contains assessment activities completed as part of the course.
 
+The assessment work is organized **unit-wise**, matching the five units of the syllabus.
+
 ```text
 Assessment-Tool/
 │
-├── Assessment-01/
-├── Assessment-02/
-├── Assessment-03/
-├── Assessment-04/
-└── ...
+├── Unit-01/
+│   ├── Assessment-01/
+│   ├── Assessment-02/
+│   └── ...
+│
+├── Unit-02/
+│   ├── Assessment-01/
+│   ├── Assessment-02/
+│   └── ...
+│
+├── Unit-03/
+│   ├── Assessment-01/
+│   ├── Assessment-02/
+│   └── ...
+│
+├── Unit-04/
+│   ├── Assessment-01/
+│   ├── Assessment-02/
+│   └── ...
+│
+└── Unit-05/
+    ├── Assessment-01/
+    ├── Assessment-02/
+    └── ...
 ```
 
 Each assessment can contain:
@@ -367,6 +535,26 @@ Each assessment can contain:
 * 💻 Practical outputs
 * 📄 Supporting files
 * ✅ Completed activities
+
+### 📘 Unit 01 Assessments
+
+Assessments related to **Cloud and Services**, including cloud fundamentals, service models, web services, and server virtualization.
+
+### 📗 Unit 02 Assessments
+
+Assessments related to **Virtualization Fundamentals**, including virtualization architecture, hypervisors, datacenters, federation, identity, and privacy.
+
+### 📙 Unit 03 Assessments
+
+Assessments related to **Access to Cloud**, including clients, networks, cloud platforms, web applications, APIs, storage, and application development.
+
+### 📕 Unit 04 Assessments
+
+Assessments related to **Fundamentals of Big Data**, including Big Data characteristics, the 5Vs, analytics, security, and applications.
+
+### 📓 Unit 05 Assessments
+
+Assessments related to **Hadoop and MapReduce Architecture**, including HDFS, MapReduce, YARN, job scheduling, and data serialization.
 
 ---
 
@@ -405,23 +593,64 @@ Through the course and practical activities, this repository tracks learning in 
 
 # 📁 Repository Structure
 
+The repository is organized into course resources, unit-wise assessments, and laboratory evidence.
+
 ```text
-CSA15-Cloud-Computing/
+CSA1521_CLOUD_COMPUTING/
 │
-├── 📁 Assessment-Tool/
-│   ├── Assessment-01/
-│   ├── Assessment-02/
-│   ├── Assessment-03/
-│   └── ...
+├── 📄 README.md
 │
-├── 📁 Lab-Screenshots/
-│   ├── Lab-01/
-│   ├── Lab-02/
-│   ├── Lab-03/
-│   ├── Lab-04/
-│   └── ...
+├── 📚 Course-Syllabus/
+│   └── Syllabus PDF
 │
-└── 📄 README.md
+├── 📖 Lab-Manual/
+│   └── Lab Manual PDF
+│
+├── 📦 Course-Materials/
+│   └── Course Learning Materials
+│
+├── 📝 Assessment-Tool/
+│   │
+│   ├── Unit-01/
+│   │   ├── Assessment-01/
+│   │   ├── Assessment-02/
+│   │   └── ...
+│   │
+│   ├── Unit-02/
+│   │   ├── Assessment-01/
+│   │   ├── Assessment-02/
+│   │   └── ...
+│   │
+│   ├── Unit-03/
+│   │   ├── Assessment-01/
+│   │   ├── Assessment-02/
+│   │   └── ...
+│   │
+│   ├── Unit-04/
+│   │   ├── Assessment-01/
+│   │   ├── Assessment-02/
+│   │   └── ...
+│   │
+│   └── Unit-05/
+│       ├── Assessment-01/
+│       ├── Assessment-02/
+│       └── ...
+│
+└── 🧪 Lab-Screenshots/
+    │
+    ├── Lab-Experiments_1.png
+    ├── Lab-Experiments_2.png
+    ├── Lab-Experiments_3.png
+    ├── Lab-Experiments_4.png
+    ├── Lab-Experiments_5.png
+    ├── Lab-Experiments_6.png
+    ├── Lab-Experiments_7.png
+    ├── Lab-Experiments_8.png
+    ├── Lab-Experiments_9.png
+    ├── Lab-Experiments_10.png
+    ├── Lab-Experiments_11.png
+    ├── Lab-Experiments_12.png
+    └── README.md
 ```
 
 ---
@@ -436,8 +665,13 @@ CSA15-Cloud-Computing/
 | 📊 Big Data Analytics           | 🔄 Learning    |
 | 🐘 Hadoop                       | 🔄 Learning    |
 | ⚙️ MapReduce                    | 🔄 Learning    |
-| 📝 Assessments                  | 🔄 In Progress |
-| 🧪 Laboratory Work              | 🔄 In Progress |
+| 📄 Course Syllabus              | ✅ Added       |
+| 📖 Lab Manual                   | ✅ Added       |
+| 📚 Course Materials             | 🔄 Updating    |
+| 📝 Unit-wise Assessments        | 🔄 In Progress |
+| 🧪 12 Laboratory Experiments    | ✅ Added       |
+| 📸 Lab Screenshots              | ✅ Added       |
+| 📋 Documentation                | 🔄 Updating    |
 
 > The progress section can be updated as the course work is completed.
 
@@ -458,6 +692,18 @@ The official syllabus recommends the following textbooks:
 
 4. **Understanding Big Data**
    Chris Eaton, Dirk deRoos et al.
+
+---
+
+# 🔗 Quick Navigation
+
+| Section | Purpose |
+|---|---|
+| 📄 [Course Syllabus](./Course-Syllabus) | Official course syllabus |
+| 📚 [Course Materials](./Course-Materials) | Notes and supporting learning resources |
+| 📖 [Lab Manual](./Lab-Manual) | Laboratory reference and instructions |
+| 📝 [Assessment Tool](./Assessment-Tool) | Unit-wise assessment activities |
+| 🧪 [Lab Screenshots](./Lab-Screenshots) | 12 laboratory experiment screenshots |
 
 ---
 
@@ -495,7 +741,7 @@ Real-World Cloud + Big Data Solutions
 
 This repository serves as a **digital record of my Cloud Computing and Big Data Analytics learning journey**.
 
-Instead of keeping laboratory screenshots and assessment activities separately, everything related to the course is organized here in a structured and accessible format.
+Instead of keeping the syllabus, course materials, laboratory manual, assessments, laboratory screenshots, and practical evidence separately, everything related to the course is organized here in a structured and accessible format.
 
 The goal is to maintain a clear record of:
 
@@ -516,10 +762,14 @@ The goal is to maintain a clear record of:
 ## ⭐ Repository Status
 
 ```text
-Course Status : 🟢 Active
-Assessments   : 🔄 In Progress
-Labs          : 🔄 In Progress
-Documentation : 🔄 In Progress
+Course Status  : 🟢 Active
+Syllabus       : ✅ Added
+Lab Manual     : ✅ Added
+Materials      : 🔄 Updating
+Assessments    : 🔄 In Progress
+12 Lab Experiments : ✅ Added
+Lab Screenshots: ✅ Added
+Documentation  : 🔄 Updating
 ```
 
 ---
