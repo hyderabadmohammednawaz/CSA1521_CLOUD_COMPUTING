@@ -14,9 +14,7 @@
 
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=Cloud%20Computing%20%26%20Big%20Data&fontSize=34&fontColor=ffffff&color=0:2563eb,100:7c3aed&section=header" alt="Cloud Computing and Big Data banner" />
-</p>
+
 
 > ### 🧩 Can You Solve the Cloud Puzzle?
 >
