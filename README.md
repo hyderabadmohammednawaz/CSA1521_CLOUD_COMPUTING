@@ -1,5 +1,6 @@
 # ☁️ CSA15 - Cloud Computing and Big Data Analytics
-
+## 🎥 Cloud Computing in 60 Seconds
+https://github.com/user-attachments/assets/0d1d60ac-caa5-4725-a645-2ce1aee86a29
 <p align="center">
   <img src="./assets/cloud-computing-banner.png" alt="CSA15 Cloud Computing and Big Data Analytics" width="100%" />
 </p>
