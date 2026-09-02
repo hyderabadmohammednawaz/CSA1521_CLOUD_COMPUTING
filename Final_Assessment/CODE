@@ -1,0 +1,113 @@
+"""
+Smart Network Security Operations Centre (SNSOC)
+Event Classification, Alerting and Incident-Response Routing — Prototype
+"""
+
+import random
+from datetime import datetime, timedelta
+
+# 1. Configuration -----------------------------------------------------------
+
+LOG_SOURCES = ["Firewall", "IDS", "Application", "Endpoint", "Cloud"]
+
+EVENT_TYPES = {
+    "Normal Traffic":       {"severity": "Low",      "module": "Monitoring"},
+    "Port Scan":            {"severity": "Low",      "module": "Alert & Analysis"},
+    "Unauthorized Login":   {"severity": "Medium",    "module": "Alert & Analysis"},
+    "Phishing Attempt":     {"severity": "Medium",    "module": "Alert & Analysis"},
+    "Malware Activity":     {"severity": "Critical",  "module": "Incident Response"},
+    "DDoS Attack":          {"severity": "Critical",  "module": "Incident Response"},
+}
+
+ACTIONS = {
+    "Low":      "No action required",
+    "Medium":   "Alert generated",
+    "Critical": "Incident response initiated",
+}
+
+
+# 2. Simulate incoming security events ---------------------------------------
+
+def generate_events(n=10):
+    """Simulate n security events collected from network sources."""
+    events = []
+    for i in range(n):
+        event_type = random.choice(list(EVENT_TYPES.keys()))
+        events.append({
+            "id": i + 1,
+            "timestamp": (datetime.now() - timedelta(seconds=random.randint(0, 3600))).strftime("%Y-%m-%d %H:%M:%S"),
+            "source": random.choice(LOG_SOURCES),
+            "event_type": event_type,
+            "ip_address": f"192.168.{random.randint(0,255)}.{random.randint(0,255)}",
+        })
+    return events
+
+
+# 3. Threat detection & analysis engine ---------------------------------------
+
+def classify_event(event):
+    """Attach severity, action and target response module to a raw event."""
+    meta = EVENT_TYPES[event["event_type"]]
+    severity = meta["severity"]
+    event["severity"] = severity
+    event["action"] = ACTIONS[severity]
+    event["response_module"] = meta["module"] if severity != "Low" or event["event_type"] != "Normal Traffic" else "Monitoring"
+    return event
+
+
+def analyze_events(events):
+    return [classify_event(e) for e in events]
+
+
+# 4. Alerting & reporting ------------------------------------------------------
+
+def summarize(events):
+    summary = {"Low": 0, "Medium": 0, "Critical": 0}
+    for e in events:
+        summary[e["severity"]] += 1
+    return summary
+
+
+def print_event_log(events):
+    print(f"{'Event':22}{'Severity':12}{'Action'}")
+    print("-" * 70)
+    for e in events:
+        print(f"{e['event_type']:22}{e['severity']:12}{e['action']}")
+
+
+def print_summary(summary, total):
+    print("\nFinal Result: Security Summary")
+    print(f"  Total events analyzed : {total}")
+    print(f"  Low severity events   : {summary['Low']}")
+    print(f"  Medium severity events: {summary['Medium']}")
+    print(f"  Critical events       : {summary['Critical']}")
+
+
+def print_module_routing(events):
+    print("\nTask Allocation to Response Modules")
+    for e in events:
+        print(f"  Event {e['id']:02d} ({e['event_type']:<18}) -> Assigned to: {e['response_module']}")
+
+
+# 5. Main execution -------------------------------------------------------------
+
+def main():
+    print("SMART NETWORK SECURITY OPERATIONS CENTRE (SNSOC)\n")
+
+    print("1. Input: Security events collected from network sources\n")
+    events = generate_events(10)
+
+    print("2. Iteration Process: Threat Analysis\n")
+    events = analyze_events(events)
+    print_event_log(events)
+
+    summary = summarize(events)
+    print_summary(summary, len(events))
+
+    print_module_routing(events)
+
+    print("\nProcess finished with exit code 0")
+
+
+if __name__ == "__main__":
+    main()
